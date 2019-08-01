@@ -1,0 +1,170 @@
+
+.font {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:  20px;
+    color: grey;
+    text-align: left;
+}
+
+.headerContainer {  
+    position: fixed;
+    width: 100%;
+    height: 80px; 
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+    border-style: solid;
+    border-color: #cccccc;
+    border-width:  0px 0px 3px 0px;
+    z-index: 3;
+}
+#headerContent { 
+    position: absolute;
+    width: 960px;
+    height: 80px; 
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+#name {
+    position: absolute;
+    float: left;
+    width: 180px;
+    height: 100%; 
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 80px; 
+    font-weight: bold;
+    background: #4aaaa5;
+}
+
+#buttonlist{
+    float: right;
+    border-right: 1px solid #cccccc; 
+}     
+#buttonlist a {
+    display: block;
+    color: grey;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+#buttonlist:first-child {
+    border-right: none;
+}
+#buttonlist:last-child {
+    border-right: none;
+}
+#buttonlist a:hover:not(.active) {
+    background-color: #4aaaa5;
+}
+
+#bioContainer { 
+    position: absolute;
+    top: 100px;
+    overflow: auto; 
+    width: 898px; 
+    padding: 30px;
+    background: #ffffff;
+    color: #4aaaa5;
+    border-style: solid;
+    border-color: #dddddd;
+    border-width: 2px; 
+    left: 50%;
+    transform: translate(-50%, 0%);
+    margin-bottom: 200px;
+}
+#bioHeader { 
+    position: relative; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 32px;
+    margin: 15px auto;
+}
+#bioSeperator { 
+    position: relative;
+    height: 3px;
+    margin-top: 30px;
+    width: 898px;
+    background: #dddddd;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+#footerbox {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    height: 50px;
+    bottom: 0;
+    background-color: #666666;
+    border-style: solid;
+    border-color: #4aaaa5;
+    border-width:  5px 0px 0px 0px;
+}
+
+/*Contact Form*/
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  outline-width: 0;
+}
+
+#message{
+    height: 200px;
+}
+input[type=submit] {
+  width: 15%;
+  background-color: #4aaaa5;
+  color: white;
+  font-weight: bold;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+}
+
+input[type=submit]:hover {
+  background-color: #4595a0;
+}
+
+/*Portfolio*/
+
+.portfolio-pic-holder {
+    position: relative;
+    width: 250px;
+    Height: 200px;
+    margin-top: 40px;
+
+}
+
+.portfolio-tag {
+    position: absolute;
+    bottom: 10px;
+    background-color: #4aaaa5;
+    text-align: center;
+    color: #ffffff;
+    height: 50px;
+    width: 100%;
+    line-height: 2.5;
+}
+
+.row {
+    content: "";
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
