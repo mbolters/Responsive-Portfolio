@@ -15,15 +15,16 @@
         overflow: auto;
     }
     .biocontainer {
-        width: 100%;
-        overflow: hidden;
+        width: 100% !important;
+        overflow: hidden !important;
     }
     .portfolio-pic-holder {
         float: none !important;
     }
     #headercontent {
-        width: 100%;
+        max-width: 768px auto;
     }
+    
 } 
   
   
@@ -42,7 +43,8 @@
         float: none !important;
     }
     #headercontent {
-        width: 100%;
+        max-width: 640px auto;
     }
+    
 }
  
