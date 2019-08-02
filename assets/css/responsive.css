@@ -12,12 +12,17 @@
   @media only screen and (max-width: 768px) and (min-width: 641px){
     .headerContainer {
         width: 100%;
+        overflow: auto;
     }
     .biocontainer {
         width: 100%;
+        overflow: hidden;
     }
     .portfolio-pic-holder {
         float: none !important;
+    }
+    #headercontent {
+        width: 100%;
     }
 } 
   
@@ -26,12 +31,18 @@
     
     .headerContainer {
       width: 100%;
+      overflow: auto;
+      
     }
     .bioContainer {
-      width: 100%;
+      width: 70%;
+      overflow: hidden;
     }
     .portfolio-pic-holder {
         float: none !important;
+    }
+    #headercontent {
+        width: 100%;
     }
 }
  
