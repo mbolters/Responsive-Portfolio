@@ -1,0 +1,37 @@
+/* Media Query */
+
+@media only screen and (max-width: 980px ) and ( min-width: 769px) {
+    .headerContainer {
+      width: 100%;
+    }
+    .biocontainer {
+      width: 100%;
+    }
+}
+  
+  @media only screen and (max-width: 768px) and (min-width: 641px){
+    .headerContainer {
+        width: 100%;
+    }
+    .biocontainer {
+        width: 100%;
+    }
+    .portfolio-pic-holder {
+        float: none !important;
+    }
+} 
+  
+  
+  @media only screen and (max-width: 640px) and (min-width: 0px) {
+    
+    .headerContainer {
+      width: 100%;
+    }
+    .bioContainer {
+      width: 100%;
+    }
+    .portfolio-pic-holder {
+        float: none !important;
+    }
+}
+ 
