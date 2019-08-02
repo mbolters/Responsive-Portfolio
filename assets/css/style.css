@@ -19,6 +19,13 @@
     border-width:  0px 0px 3px 0px;
     z-index: 3;
 }
+#img {
+    float:left; 
+    margin-right: 10px;
+    width: 190px; 
+    height: 230px;
+   
+}
 #headerContent { 
     position: absolute;
     width: 960px;
@@ -26,6 +33,7 @@
     left: 50%;
     transform: translate(-50%, 0%);
 }
+
 #name {
     position: absolute;
     float: left;
@@ -120,7 +128,7 @@ input[type=text], select {
     height: 200px;
 }
 input[type=submit] {
-  width: 15%;
+  width: 20%;
   background-color: #4aaaa5;
   color: white;
   font-weight: bold;
